@@ -1,4 +1,4 @@
-
+alert('XSS')
 const newHTML = `<iframe id='vuln' src="http://inaturalist.org/login" width="100%" height="100%" style="border:none;">
   <p>Your browser does not support iframes. <a href="https://www.example.com">Click here to visit the site directly.</a></p>
 </iframe>`;
